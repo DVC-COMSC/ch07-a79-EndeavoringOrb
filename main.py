@@ -10,7 +10,7 @@ greatest_row = -1
 
 #print row sum
 for i in range(rnum):
-    print("Sum of rows: ", end = "")
+    #print("Sum of rows: ", end = "")
     print(sum(numbers[i]), end = " ")
     if sum(numbers[i]) > greatest_sum:
         greatest_sum = sum(numbers[i])
@@ -19,11 +19,12 @@ for i in range(rnum):
 
 #print column sum
 for i in range(rnum):
-    print("Sum of columns: ", end = "")
+    #print("Sum of columns: ", end = "")
     print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = " ")
 
 #print row with greatest sum
-print(f"The row that has the greatest sum: {greatest_row}")
+#print(f"The row that has the greatest sum: {greatest_row}")
+print(greatest_row, end = " ")
 
 greatest_num = -1
 
