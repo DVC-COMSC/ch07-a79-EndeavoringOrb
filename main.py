@@ -9,7 +9,6 @@ greatest_sum = -1
 greatest_row = -1
 
 #print row sum
-print(" ", end = "")
 for i in range(rnum):
     #print("Sum of rows: ", end = "")
     if i != 2:
