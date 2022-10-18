@@ -9,8 +9,8 @@ greatest_sum = -1
 greatest_row = -1
 
 #print row sum
+print("Sum of rows: ", end = "")
 for i in range(rnum):
-    print("Sum of rows: ", end = "")
     if i != 2:
         print(sum(numbers[i]), end = " ")
     if i == 2:
@@ -20,8 +20,8 @@ for i in range(rnum):
         greatest_row = i
 
 #print column sum
+print("Sum of columns: ", end = "")
 for i in range(rnum):
-    print("Sum of columns: ", end = "")
     if i != 2:
         print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = " ")
     if i == 2:
