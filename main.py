@@ -15,7 +15,7 @@ for i in range(rnum):
     if i != 2:
         print(sum(numbers[i]), end = " ")
     if i == 2:
-        print(sum(numbers[i]))
+        print(sum(numbers[i]), end = "\n")
     if sum(numbers[i]) > greatest_sum:
         greatest_sum = sum(numbers[i])
         greatest_row = i
@@ -27,13 +27,13 @@ for i in range(rnum):
     if i != 2:
         print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = " ")
     if i == 2:
-        print(numbers[i][0] + numbers[i][1] + numbers[i][2])
+        print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = "\n")
 
 #print("\n")
 
 #print row with greatest sum
 #print(f"The row that has the greatest sum: {greatest_row}")
-print(greatest_row)
+print(greatest_row, end = "\n")
 #print("\n")
 greatest_num = -1
 
