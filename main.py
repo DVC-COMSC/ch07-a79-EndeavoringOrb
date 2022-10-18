@@ -9,6 +9,7 @@ greatest_sum = -1
 greatest_row = -1
 
 #print row sum
+print(" ", end = "")
 for i in range(rnum):
     #print("Sum of rows: ", end = "")
     if i != 2:
@@ -42,4 +43,4 @@ for i in range(rnum):
     for j in range(cnum):
         if numbers[i][j] > greatest_num:
             greatest_num = numbers[i][j]
-print(greatest_num)
+print(greatest_num, end = " ")
