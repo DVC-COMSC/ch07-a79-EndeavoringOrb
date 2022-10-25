@@ -22,7 +22,7 @@ for i in range(rnum):
 
 #print column sum
 #print("Sum of columns: ", end = "")
-for i in range(cnum-1):
+for i in range(cnum):
     col_tot = 0
     for j in range(rnum):
         col_tot += numbers[j][i]
@@ -30,7 +30,7 @@ for i in range(cnum-1):
 
 #print row with greatest sum
 #print(f"The row that has the greatest sum: {greatest_row}", end = "\n")
-print(f"{greatest_row}")
+print(f"\n{greatest_row}")
 greatest_num = -1
 
 #print greatest value in array
