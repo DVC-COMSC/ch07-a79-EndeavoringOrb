@@ -22,7 +22,7 @@ for i in range(rnum):
 
 #print column sum
 #print("Sum of columns: ", end = "")
-for i in range(cnum):
+for i in range(cnum-1):
     col_tot = 0
     for j in range(rnum):
         col_tot += numbers[j][i]
