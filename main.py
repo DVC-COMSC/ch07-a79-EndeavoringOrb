@@ -9,7 +9,7 @@ greatest_sum = -1
 greatest_row = -1
 
 #print row sum
-print("Sum of rows: ", end = "")
+#print("Sum of rows: ", end = "")
 for i in range(rnum):
     if i != 2:
         print(sum(numbers[i]), end = " ")
@@ -20,7 +20,7 @@ for i in range(rnum):
         greatest_row = i
 
 #print column sum
-print("Sum of columns: ", end = "")
+#print("Sum of columns: ", end = "")
 for i in range(rnum):
     if i != 2:
         print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = " ")
@@ -28,7 +28,8 @@ for i in range(rnum):
         print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = "\n")
 
 #print row with greatest sum
-print(f"The row that has the greatest sum: {greatest_row}", end = "\n")
+#print(f"The row that has the greatest sum: {greatest_row}", end = "\n")
+print(f"{greatest_row}\n")
 greatest_num = -1
 
 #print greatest value in array
