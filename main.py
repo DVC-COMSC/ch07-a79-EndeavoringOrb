@@ -29,7 +29,7 @@ for i in range(rnum):
 
 #print row with greatest sum
 #print(f"The row that has the greatest sum: {greatest_row}", end = "\n")
-print(f"{greatest_row}\n")
+print(f"{greatest_row}")
 greatest_num = -1
 
 #print greatest value in array
@@ -38,4 +38,4 @@ for i in range(rnum):
     for j in range(cnum):
         if numbers[i][j] > greatest_num:
             greatest_num = numbers[i][j]
-print(f"The greatest number: {greatest_num}")
+print(f"{greatest_num}")
