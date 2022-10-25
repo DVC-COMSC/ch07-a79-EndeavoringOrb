@@ -5,7 +5,7 @@ numbers = [     [99, 11, 66, 86, 55],
 
 
 rnum = len(numbers)
-cnum = len(numbers)
+cnum = len(numbers[0])
 greatest_sum = -1
 greatest_row = -1
 
