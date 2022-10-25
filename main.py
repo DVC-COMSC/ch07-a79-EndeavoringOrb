@@ -5,6 +5,7 @@ numbers = [     [99, 11, 66, 86, 55],
 
 
 rnum = len(numbers)
+cnum = len(numbers)
 greatest_sum = -1
 greatest_row = -1
 
@@ -21,11 +22,11 @@ for i in range(rnum):
 
 #print column sum
 #print("Sum of columns: ", end = "")
-for i in range(rnum):
-    if i != 2:
-        print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = " ")
-    if i == 2:
-        print(numbers[i][0] + numbers[i][1] + numbers[i][2], end = "\n")
+for i in range(cnum):
+    col_tot = 0
+    for j in range(rnum):
+        col_tot += numbers[j][i]
+    print(col_tot,end = " ")
 
 #print row with greatest sum
 #print(f"The row that has the greatest sum: {greatest_row}", end = "\n")
